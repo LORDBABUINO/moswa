@@ -1,0 +1,62 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 17px;
+  padding-left: 20.5px;
+  height: 71.5px;
+  align-items: center;
+  border-bottom: 1px solid #C7C7C7;
+  font-size: 0;
+}
+
+.top > div {
+  position: relative;
+}
+
+.top > div > img:first-of-type {
+  margin-right: 17px;
+}
+
+.notification {
+  background-color: #D72F5A;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-top: 15.5px;
+  padding-left: 24px;
+  padding-right: 37px;
+  font-size: 10px;
+  line-height: 14px;
+  color: #707070;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li img {
+  margin-bottom: 5px;
+}
+
+li .puzzle-fix {
+  height: 62px;
+  width: 68px;
+  margin: -3px -9px 3px -2px;
+  z-index: -1;
+}
+
+.active {
+  color: #D72F5A;
+  font-weight: 600;
+}

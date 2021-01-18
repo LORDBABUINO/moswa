@@ -1,0 +1,113 @@
+.search-container {
+  position: relative;
+  display:flex;
+  justify-content: space-between;
+  margin: 26px 25px 32.55px;
+}
+
+.search-container > button {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  color: white;
+  padding-top: 9.45px;
+  padding-bottom: 8.55px;
+  background-color: #00ADA8;
+  border-radius: 18px;
+  border: 0;
+  width: 120px;
+}
+
+input {
+  border: 1px solid #C7C7C7;
+  border-radius: 18px;
+  padding: 9px 35px 9px 15px;
+  font-size: 12px;
+  width: 229px;
+}
+
+.search-container > img {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 28px;
+  margin-left: 36px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+  padding: 0 14px 16px 0;
+  box-shadow: 0 3px 6px #00000029;
+  margin-bottom: 21px;
+  position: relative;
+}
+
+li > img:first-of-type {
+  margin-bottom: 5px;
+}
+
+li > img:last-of-type {
+  position: absolute;
+  top: 15.66px;
+  right: 26.24px;
+}
+
+h4 {
+  color: #50535A;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+h4, .brl {
+  margin-left: 15px;
+}
+
+li > span {
+  font-size: 12px;
+  margin-left: 15px;
+  color: #50535A;
+}
+li > div {
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+
+.brl {
+  color: #FC7E3F;
+  font-size: 8px;
+  vertical-align: 10px;
+  margin-right: 3px;
+  font-weight: 600;
+}
+
+.cost {
+  color: #50535A;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+li > div > img {
+  float: right;
+  margin-top: 3px;
+}
+
+li button {
+  margin-left: 13px;
+  background-color: #D72F5A;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  line-height: 17px;
+  height: 30px;
+}

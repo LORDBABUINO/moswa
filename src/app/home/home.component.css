@@ -1,0 +1,90 @@
+.curvy-div {
+  color: white;
+  background-color: #00ADA8;
+  padding-top: 90px;
+  padding-left: 56.5px;
+  margin-bottom: 12px;
+  position: relative;
+  overflow: hidden;
+  max-width: 800px;
+}
+
+.curvy-div > img {
+  margin-bottom: 33.15px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 60px;
+  width: 288px;
+  margin-bottom: 7px;
+}
+
+p {
+  width: 211px;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #707070;
+  margin-bottom: 13px;
+}
+
+#curved-corner-bottomright {
+  width: 828px;
+  height: 828px;
+  overflow: hidden;
+  position: relative;
+  margin-left: -56.5px;
+  margin-top: -730px;
+}
+
+#curved-corner-bottomright:before {
+  content: "";
+  display: block;
+  overflow: auto;
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  box-shadow: 414px 414px 0 0 white;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+li {
+  font-size: 0;
+  text-align: center;
+}
+
+label {
+  color: #50535A;
+  font-size: 10px;
+}
+
+img {
+  display: block;
+}
+
+.circle {
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 50%;
+  padding: 25.05px 15.38px 16.08px 15.32px;
+  margin-bottom: 9px;
+}
+
+.house-fix {
+  margin-bottom: 14px;
+}

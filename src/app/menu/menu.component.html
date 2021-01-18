@@ -1,0 +1,12 @@
+<app-header></app-header>
+<p>
+Aqui você monta o seu produto passo-a-passo, escolha a peça bruta, banho, montagem e acabamento. Para começar, <b>selecione o tipo de produto:</b>
+</p>
+<main>
+  <ul>
+    <li *ngFor="let productType of productTypes">
+      <a href="/galeria">{{productType}}</a>
+    </li>
+  </ul>
+  <div>Banner de ofertas</div>
+</main>
