@@ -7,6 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run
 ```
 git clone https://github.com/LORDBABUINO/moswa.git
+cd moswa
+npm install
 npm start
 ```
 then access `http://localhost:4200/`
